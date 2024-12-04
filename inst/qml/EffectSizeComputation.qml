@@ -110,6 +110,7 @@ Form
 			{
 				id:			effectSize
 				name:		"effectSize"
+				depends:   "design"
 				visible:	design.value != "reportedEffectSizes"
 				indexDefaultValue: (function() {
 					if (design.value == "independentGroups" && measurement.value == "quantitative")
